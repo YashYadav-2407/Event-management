@@ -9,6 +9,7 @@ export interface IEvent {
     address: string
     city: string
     country: string
+    pincode :number
   },
   onlineUrl?: string,
   sessions: ISession[]
